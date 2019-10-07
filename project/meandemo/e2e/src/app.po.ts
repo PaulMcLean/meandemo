@@ -15,7 +15,7 @@ export class AppPage {
     await browser.wait(EC.presenceOf(element(by.id('addEntryLink'))), 5000, 'addEntryLink taking too long to appear in the DOM');
     element(by.id('addEntryLink')).click();
     await browser.wait(EC.presenceOf(element(by.css('input[formControlName=URL]'))), 5000, 'Element taking too long to appear in the DOM');
-    await element(by.css('input[formControlName=URL]')).sendKeys('https://github.com/jhuopensource/meandemo');
+    await element(by.css('input[formControlName=URL]')).sendKeys('https://github.com/paulmcleanus/meandemo');
     await element(by.css('input[formControlName=title]')).sendKeys('MEAN Demo');
     await element(by.css('input[formControlName=author]')).sendKeys('Mike Sellers and Ali Soylu');
     await element(by.css('textarea[formControlName=description]')).sendKeys('One MEAN CRUD on Docker Demo App.');

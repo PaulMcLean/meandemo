@@ -1,4 +1,4 @@
-# One MEAN (Mongo, Express, Angular, Node.js) CRUD on Docker Demo App <a href="https://travis-ci.com/jhuopensource/meandemo"><img src="https://api.travis-ci.com/jhuopensource/meandemo.svg?branch=master"></a>
+# One MEAN (Mongo, Express, Angular, Node.js) CRUD on Docker Demo App <a href="https://travis-ci.com/paulmcleanus/meandemo"><img src="https://api.travis-ci.com/paulmcleanus/meandemo.svg?branch=master"></a>
 The project contained in this repository provides a basic working CRUD application built on Docker to get you up and coding on a MEAN stack in Docker, sooner.
 
 In order to share a baseline understanding of containerization technologies built on Docker along with the practical knowledge necessary to begin building, shipping and deploying MEAN (Mongo / Express / Angular / Node.js) applications in containers, this project has been developed and made available through our public repo.
@@ -13,17 +13,17 @@ This project contains all content from "One MEAN CI/CD Docker Demo" presented at
 * 1 - Download the repo (on Linux, be certain to also install docker-compose)
 * 2 - From the project directory, "docker-compose up"
 
-### Docker Hub JHUOPENSOURCE repo pull commands for project images
+### Docker Hub paulmcleanus/public repo pull commands for project images
 Pulling from the Hub is optional for those who just want to run (this meets the "SHIP" requirement)
-* `docker push jhuopensource/meandemo:nginx_angular_node`
-* `docker push jhuopensource/meandemo:express_node`
-* `docker push jhuopensource/meandemo:mongo`
+* `docker push paulmcleanus/meandemo:nginx_angular_node`
+* `docker push paulmcleanus/meandemo:express_node`
+* `docker push paulmcleanus/meandemo:mongo`
 
 ### Docker Hub Integration added 4/22/19
-All automatic image builds are stored in the Docker Hub jhuopensource registry
-* `docker pull jhuopensource/meandemo:mongo`
-* `docker pull jhuopensource/meandemo:express_node`
-* `docker pull jhuopensource/meandemo:nginx_angular_node`
+All automatic image builds are stored in the Docker Hub paulmcleanus/public registry
+* `docker pull paulmcleanus/meandemo:mongo`
+* `docker pull paulmcleanus/meandemo:express_node`
+* `docker pull paulmcleanus/meandemo:nginx_angular_node`
 
 
 ### Running e2e tests using selenium in Docker

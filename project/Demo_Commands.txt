@@ -44,5 +44,5 @@ docker service scale mean_stack_meandemo_nginx_angular_node=5
 docker service ls
 
 SLIDE 26
-1 – docker push paulmcleanus/public/meandemo:express_node
-	docker pull paulmcleanus/public/meandemo:express_node
+1 – docker push paulmcleanus/meandemo:express_node
+	docker pull paulmcleanus/meandemo:express_node

@@ -8,4 +8,4 @@ EXPOSE 3000 4200
 CMD ["npm","run-script","serve"]
 
 # Basic run container for working through shell
-# docker run -it --rm paulmcleanus/public/meandemo:nginx_angular_node cd /usr/src/app && npm install eslint && /usr/src/app/node_modules/.bin/eslint -c /usr/src/app/.eslintrc.js /usr/src/app
+# docker run -it --rm paulmcleanus/meandemo:nginx_angular_node cd /usr/src/app && npm install eslint && /usr/src/app/node_modules/.bin/eslint -c /usr/src/app/.eslintrc.js /usr/src/app
